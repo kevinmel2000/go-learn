@@ -12,7 +12,7 @@ func main() {
 }))
 
   m.Get("/", func(r render.Render){
-    r.HTML(200, "halo", "jeremy")
+    r.HTML(200, "halo", "ibnu")
   })
 
   m.Get("/api", func(r render.Render) {
